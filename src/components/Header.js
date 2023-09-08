@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="fixed right-0 left-0 flex justify-between bg-white shadow-lg py-5 px-14 text-zinc-700 items-center">
+    <div className="fixed right-0 left-0 z-10 flex justify-between bg-white shadow-lg py-8 px-14 text-zinc-700 items-center">
       <div>
         <h1 className="font-bold text-xl">Surjith.dev</h1>
       </div>
