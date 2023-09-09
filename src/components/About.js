@@ -5,12 +5,12 @@ const About = () => {
   const role = "Front-End Web Developer".split("");
   console.log(role);
   return (
-    <div className="max-w-6xl m-auto px-10 my-32 ">
-      <div className="flex gap-20">
-        <div className="max-w-md relative">
+    <div className="max-w-6xl m-auto  my-32 ">
+      <div className="flex flex-col px-16 md:px-10 items-center gap-20 md:flex-row ">
+        <div className="max-w-sm md:max-w-md relative">
           <img className="h-full rounded-xl" alt="workdesk" src={workDesk} />
-          <div className="absolute h-44 w-44 flex justify-center items-center  -bottom-10 -right-16 bg-white rounded-full p-5">
-            <img className=" h-16" alt="man" src={workingMan} />
+          <div className="absolute h-36 w-36 md:h-44 md:w-44 flex justify-center items-center  -bottom-10 md:-right-16 -right-10 bg-white rounded-full">
+            <img className="max-h-16" alt="man" src={workingMan} />
             <h1 className="w-full h-full absolute animate-spin-slow">
               {role.map((text, i) => {
                 return (
@@ -18,7 +18,7 @@ const About = () => {
                     key={i}
                     style={{ transform: "rotate(" + i * 14.2 + "deg)" }}
                     className={
-                      "absolute font-semibold left-1/2 text-lg  origin-[0_90px] "
+                      "absolute font-semibold left-1/2 text-lg origin-[0_74px]  md:origin-[0_90px] "
                     }
                   >
                     {text.toUpperCase()}

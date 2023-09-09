@@ -12,9 +12,9 @@ const Home = () => {
     "https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png",
   ];
   return (
-    <div className="bg-neutral-50 h-screen">
+    <div className="bg-neutral-50 md:h-screen">
       <div className="max-w-5xl px-10 pt-48 m-auto">
-        <div className="flex items-center gap-24">
+        <div className="flex flex-col-reverse md:flex-row items-center gap-24">
           <div className="max-w-lg">
             <h1 className="font-bold text-6xl my-5">
               Front-End React
@@ -27,20 +27,32 @@ const Home = () => {
               based in Tamilnadu, India. 📍
             </p>
             <p className="flex gap-14 mt-9">
-              <AiFillGithub className="text-4xl hover:text-blue-600 cursor-pointer" />
-              <AiOutlineLinkedin className="text-4xl  hover:text-blue-600 cursor-pointer" />
+              <a
+                href="https://github.com/SurjithPeriyasamy"
+                rel="external noreferrer"
+                target="_blank"
+              >
+                <AiFillGithub className="text-4xl hover:text-blue-600 cursor-pointer" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/surjith-p-dev005"
+                rel="external noreferrer"
+                target="_blank"
+              >
+                <AiOutlineLinkedin className="text-4xl  hover:text-blue-600 cursor-pointer" />
+              </a>
             </p>
           </div>
           <div className="">
             <img className="rounded-full h-80" alt="profile" src={profile} />
           </div>
         </div>
-        <ul className="flex items-center gap-7 mt-28">
+        <ul className="flex flex-wrap items-center gap-7 mt-28">
           <h1 className="font-semibold text-lg">Tech Stacks</h1>
           <span className="mr-5 text-2xl"> |</span>
           {techStackLogos.map((stack, i) => (
             <li key={i} className="bg-white shadow-xl rounded-full p-3">
-              <img className="h-9 " alt="html" src={stack} />
+              <img className="h-9" alt="html" src={stack} />
             </li>
           ))}
         </ul>
