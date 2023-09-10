@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../images/profile.jpg";
 import wavingHand from "../images/wavingHand.svg";
+import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
 const Home = () => {
@@ -35,6 +36,13 @@ const Home = () => {
                 <LinkedIn />
               </div>
             </p>
+            <a
+              href="https://github.com/SurjithPeriyasamy/surjith-portfolio"
+              className="flex justify-center md:justify-normal mt-5 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
+            >
+              Code for This Portfolio
+              <AiFillGithub className="text-3xl text-cyan-700 animate-bounce" />
+            </a>
           </div>
           <div className="max-w-xs">
             <img className="rounded-full " alt="profile" src={profile} />
