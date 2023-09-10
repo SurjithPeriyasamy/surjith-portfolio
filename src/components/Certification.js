@@ -12,9 +12,13 @@ const Certification = () => {
         <h1 className="text-3xl font-semibold text-blue-800 my-5">
           Certification
         </h1>
-        <div className="flex flex-col md:flex-row gap-10">
-          <div className="max-w-lg">
-            <img alt="certificate" src={certificate} />
+        <div className="flex flex-col md:flex-row gap-10 rounded-md shadow-[0_0_60px_2px_lightgray] px-2 py-6">
+          <div className="max-w-lg mx-auto">
+            <img
+              className="rounded-md shadow-xl"
+              alt="certificate"
+              src={certificate}
+            />
           </div>
           <div className="max-w-lg">
             <h1 className="flex justify-center items-center gap-3 text-xl font-semibold">
