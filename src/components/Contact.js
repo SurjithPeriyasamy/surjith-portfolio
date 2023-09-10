@@ -6,24 +6,29 @@ import userContext from "../utils/userContext";
 const Contact = () => {
   const { location, mail } = useContext(userContext);
   return (
-    <div className="max-w-5xl m-auto py-32">
-      <h3 className="text-blue-600 font-bold text-lg">CONTACT</h3>
-      <h1 className="font-bold text-2xl my-2">Don't be shy! Hit me up! 👇</h1>
-      <div className="flex flex-col md:flex-row gap-28 mt-14">
-        <MailAndLocation
-          title={"Location"}
-          Icon={FaMapLocationDot}
-          content={location}
-          isMail={false}
-        />
-        {mail && (
+    <div className="bg-neutral-50">
+      <div
+        id="contact"
+        className="max-w-5xl m-auto px-5 md:px-10 py-16 md:py-32"
+      >
+        <h3 className="text-blue-600 font-bold text-lg">CONTACT</h3>
+        <h1 className="font-bold text-2xl my-2">Don't be shy! Hit me up! 👇</h1>
+        <div className="flex flex-col md:flex-row gap-10 md:gap-28 mt-14">
           <MailAndLocation
-            title={"Mail"}
-            Icon={FiMail}
-            content={mail}
-            isMail={true}
+            title={"Location"}
+            Icon={FaMapLocationDot}
+            content={location}
+            isMail={false}
           />
-        )}
+          {mail && (
+            <MailAndLocation
+              title={"Mail"}
+              Icon={FiMail}
+              content={mail}
+              isMail={true}
+            />
+          )}
+        </div>
       </div>
     </div>
   );

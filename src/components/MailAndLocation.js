@@ -9,7 +9,7 @@ const MailAndLocation = ({ title, Icon, content, isMail }) => {
       <div>
         <h1 className="font-bold text-lg">{title}</h1>
         {isMail === true ? (
-          <a href={"mailto:" + content} rel="noreferrer">
+          <a href={"mailto:" + content} target="_blank" rel="noreferrer">
             <h1 className="font-semibold text-lg hover:text-blue-600 text-gray-600">
               {content}
             </h1>

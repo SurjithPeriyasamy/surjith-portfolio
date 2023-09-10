@@ -1,18 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import workDesk from "../images/workdesk.jpg";
 import workingMan from "../images/WorkingMan.png";
+import userContext from "../utils/userContext";
 const About = () => {
-  const role = "Front-End Web Developer".split("");
-  console.log(role);
+  const { role } = useContext(userContext);
+  console.log("hi");
   return (
-    <div className="max-w-6xl m-auto  my-32 ">
-      <div className="flex flex-col px-16 md:px-10 items-center gap-20 md:flex-row ">
-        <div className="max-w-sm md:max-w-md relative">
-          <img className="h-full rounded-xl" alt="workdesk" src={workDesk} />
+    <div id="about" className="max-w-6xl m-auto  py-36">
+      <div className="flex flex-col px-10 items-center gap-20 lg:flex-row ">
+        <div className="max-w-sm md:max-w-lg relative mx-9 md:mx-0">
+          <img className="rounded-xl" alt="workdesk" src={workDesk} />
           <div className="absolute h-36 w-36 md:h-44 md:w-44 flex justify-center items-center  -bottom-10 md:-right-16 -right-10 bg-white rounded-full">
-            <img className="max-h-16" alt="man" src={workingMan} />
+            <img className="h-12 md:h-16" alt="man" src={workingMan} />
             <h1 className="w-full h-full absolute animate-spin-slow">
-              {role.map((text, i) => {
+              {role.split("").map((text, i) => {
                 return (
                   <span
                     key={i}
@@ -29,7 +30,9 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-lg">
-          <h2 className="text-blue-600 font-bold text-lg">ABOUT ME</h2>
+          <h2 className="text-blue-600 font-bold text-center md:text-start text-lg">
+            ABOUT ME
+          </h2>
           <h1 className="font-bold text-2xl my-5">
             A dedicated Front-end Developer based in Tamilnadu, India 📍
           </h1>
