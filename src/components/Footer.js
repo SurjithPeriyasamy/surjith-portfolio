@@ -4,9 +4,9 @@ import LinkedIn from "./LinkedIn";
 
 const Footer = () => {
   return (
-    <div className="bg-zinc-800">
-      <div className="py-16 px-10 md:px-0 text-white flex flex-col gap-4 md:flex-row justify-between items-center max-w-5xl mx-auto">
-        <p className="font-bold text-lg">
+    <div className="bg-zinc-800 px-5">
+      <div className="py-16 text-white flex flex-col gap-4 md:flex-row justify-between items-center max-w-5xl mx-auto">
+        <p className="font-bold md:text-lg">
           Copyright &copy; 2023. All rights are reserved
         </p>
         <div className="flex gap-8 text-3xl">

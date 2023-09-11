@@ -23,17 +23,17 @@ const Header = () => {
         }
       >
         {!isMenuOpen ? (
-          <GiHamburgerMenu className="text-3xl hover:text-blue-600 md:hidden cursor-pointer" />
+          <GiHamburgerMenu className="text-3xl hover:text-blue-600 lg:hidden cursor-pointer" />
         ) : (
-          <FaXmark className="text-3xl hover:text-blue-600 md:hidden cursor-pointer" />
+          <FaXmark className="text-3xl hover:text-blue-600 lg:hidden cursor-pointer" />
         )}
       </div>
 
       <ul
         className={
           isMenuOpen
-            ? "absolute select-none md:static flex flex-col md:flex-row gap-5 left-0 top-16 w-full md:w-fit items-center p-10 md:p-0 bg-white md:bg-none shadow-xl md:shadow-none font-semibold text-lg"
-            : "hidden font-semibold text-lg md:flex gap-10"
+            ? "absolute select-none lg:static flex flex-col lg:flex-row gap-5 left-0 top-[77px] border border-t-gray-200 w-full lg:w-fit items-center p-5 lg:p-0 bg-white md:bg-none shadow-xl md:shadow-none font-semibold text-lg"
+            : "hidden font-semibold text-lg lg:flex gap-10"
         }
       >
         {menuItems.map((item, i) => (

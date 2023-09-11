@@ -8,19 +8,8 @@ export const stacks = ["React", "Tailwind CSS", "Redux"];
 
 export const projects = [
   {
-    title: "FOOD GEAR",
-    id: 1,
-    image: foodGear,
-    techStack: stacks,
-    brand: IoFastFoodSharp,
-    overView:
-      "Food Gear project is online food ordering Platform that allows users to order a food from home.This web app Using Swiggy's API for fetching Restaurant details and display it to the user.",
-    webUrl: "https://foodgear.netlify.app/",
-    gitHubCode: "https://github.com/SurjithPeriyasamy/namaste-react",
-  },
-  {
     title: "NETFLIX GPT",
-    id: 2,
+    id: 1,
     image: netflix,
     techStack: stacks,
     brand: BiSolidMoviePlay,
@@ -28,6 +17,17 @@ export const projects = [
       "Netflix GPT Project is OTT Platform that allows users to watch movies for entertainment and something else.This web app Using TMDB API for Fetching videos and details of Movies,And platform.openai API for GPT Search.",
     webUrl: "https://baby-dev-netflixgpt.netlify.app/",
     gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
+  },
+  {
+    title: "FOOD GEAR",
+    id: 2,
+    image: foodGear,
+    techStack: stacks,
+    brand: IoFastFoodSharp,
+    overView:
+      "Food Gear project is online food ordering Platform that allows users to order a food from home.This web app Using Swiggy's API for fetching Restaurant details and display it to the user.",
+    webUrl: "https://foodgear.netlify.app/",
+    gitHubCode: "https://github.com/SurjithPeriyasamy/namaste-react",
   },
   {
     title: "YOUTUBE CLONE",

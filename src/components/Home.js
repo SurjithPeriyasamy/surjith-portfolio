@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.jpg";
+import profile from "../images/profile1.png";
 import wavingHand from "../images/wavingHand.svg";
 import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
@@ -13,22 +13,28 @@ const Home = () => {
     "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png",
     "https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png",
   ];
+  // h-64 w-60 md:h-80 md:w-80
   return (
     <div id="home" className="bg-neutral-50 ">
-      <div className="max-w-5xl px-10 pt-48 pb-12 m-auto">
-        <div className="flex flex-col-reverse md:flex-row items-center md:gap-24">
-          <div className="max-w-md md:max-w-lg">
-            <h1 className="font-bold text-center text-zinc-700 select-none md:text-start text-6xl my-5">
+      <div className="max-w-5xl px-10 pt-28 lg:pt-48 pb-12 m-auto">
+        <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-24">
+          <div className="max-w-md md:max-w-lg text-center lg:text-start">
+            <h1 className="font-bold text-zinc-700 select-none  text-3xl  md:text-6xl my-5">
               Front-End React
-              <blockquote className="flex justify-center md:justify-normal items-center gap-3">
-                Developer <img className="h-16" alt="hand" src={wavingHand} />
+              <blockquote className="flex justify-center lg:justify-normal items-center gap-3">
+                Developer
+                <img
+                  className="md:h-16 h-10 animate-[wave_2s_ease-in-out_infinite]"
+                  alt="hand"
+                  src={wavingHand}
+                />
               </blockquote>
             </h1>
             <p className="text-lg text-gray-700">
               Hi, I'm Surjith Periyasamy. A passionate Front-end React Developer
-              based in Tamilnadu, India. 📍
+              based in Tamilnadu, India📍
             </p>
-            <p className="flex justify-center md:justify-normal gap-14 mt-9">
+            <p className="flex justify-center lg:justify-normal gap-14 mt-9">
               <div className="text-4xl hover:text-blue-600 cursor-pointer">
                 <GitHub />
               </div>
@@ -38,14 +44,20 @@ const Home = () => {
             </p>
             <a
               href="https://github.com/SurjithPeriyasamy/surjith-portfolio"
-              className="flex justify-center md:justify-normal mt-5 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
+              target="_blank"
+              rel="external noreferrer"
+              className="flex justify-center lg:justify-normal mt-5 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
             >
               Code for This Portfolio
               <AiFillGithub className="text-3xl text-cyan-700 animate-bounce" />
             </a>
           </div>
-          <div className="max-w-xs">
-            <img className="rounded-full " alt="profile" src={profile} />
+          <div className="min-w-fit lg:self-baseline self-center">
+            <img
+              className=" rounded-full h-[320px] w-[302px] bg-[#8e8e8e] border-4 border-black"
+              alt="profile"
+              src={profile}
+            />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-7 mt-12 lg:mt-28">

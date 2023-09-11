@@ -11,8 +11,12 @@ const Contact = () => {
         id="contact"
         className="max-w-5xl m-auto px-5 md:px-10 py-16 md:py-32"
       >
-        <h3 className="text-blue-600 font-bold text-lg">CONTACT</h3>
-        <h1 className="font-bold text-2xl my-2">Don't be shy! Hit me up! 👇</h1>
+        <h3 className="text-blue-600 font-bold text-lg text-center md:text-start">
+          CONTACT
+        </h3>
+        <h1 className="font-bold text-2xl my-2 text-center md:text-start">
+          Don't be shy! Hit me up! 👇
+        </h1>
         <div className="flex flex-col md:flex-row gap-10 md:gap-28 mt-14">
           <MailAndLocation
             title={"Location"}

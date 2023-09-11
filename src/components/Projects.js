@@ -12,7 +12,7 @@ const Projects = ({
   githubCode,
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-16 items-center bg-white py-9 p-5 rounded-lg shadow-[10px_10px_60px_-15px_rgba(0,0,0,0.3)]">
+    <div className="flex flex-col lg:flex-row gap-16 items-center bg-white py-6 px-2 rounded-lg shadow-[10px_10px_60px_-15px_rgba(0,0,0,0.3)]">
       <a
         className="max-w-lg"
         href={webUrl}
@@ -36,7 +36,7 @@ const Projects = ({
             </li>
           ))}
         </ul>
-        <div className="flex flex-col md:flex-row justify-center  md:gap-8">
+        <div className="flex flex-row justify-center gap-8">
           <a href={githubCode} rel="external noreferrer" target="_blank">
             <h1 className="flex justify-center items-center duration-200 hover:text-cyan-700 text-xl gap-3 mt-5 font-semibold">
               Code
