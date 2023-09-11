@@ -36,9 +36,9 @@ const Projects = ({
             </li>
           ))}
         </ul>
-        <div className="flex flex-row justify-center gap-8">
+        <div className="flex flex-row justify-center gap-8 text-lg">
           <a href={githubCode} rel="external noreferrer" target="_blank">
-            <h1 className="flex justify-center items-center duration-200 hover:text-cyan-700 text-xl gap-3 mt-5 font-semibold">
+            <h1 className="flex justify-center items-center  duration-200 hover:text-cyan-700 gap-3 mt-5 font-semibold">
               Code
               <span className="text-2xl text-cyan-700 animate-bounce">
                 {code}
@@ -46,7 +46,7 @@ const Projects = ({
             </h1>
           </a>
           <a href={webUrl} rel="external noreferrer" target="_blank">
-            <h1 className="flex justify-center items-center duration-200 hover:text-fuchsia-800 text-xl gap-3 mt-5 font-semibold">
+            <h1 className="flex justify-center items-center duration-200 hover:text-fuchsia-800  gap-3 mt-5 font-semibold">
               Live Demo
               <span className="text-2xl text-fuchsia-800 animate-bounce">
                 {demo}
