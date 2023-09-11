@@ -12,21 +12,27 @@ const Projects = ({
   githubCode,
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-16 items-center bg-white py-6 px-2 rounded-lg shadow-[10px_10px_60px_-15px_rgba(0,0,0,0.3)]">
+    <div className="flex flex-col lg:flex-row gap-12 px-5 items-center bg-white py-6 rounded-lg shadow-[10px_10px_60px_-15px_rgba(0,0,0,0.3)]">
       <a
         className="max-w-lg"
         href={webUrl}
         rel="external noreferrer"
         target="_blank"
       >
-        <img className="rounded-md shadow-xl" alt="projects" src={image} />
+        <img
+          className="rounded-md shadow-[0_0_10px_1px_rgba(0,0,0,0.3)]"
+          alt="projects"
+          src={image}
+        />
       </a>
       <div className="max-w-lg">
         <h1 className="font-bold justify-center items-center mb-3 flex gap-3">
           {title} <Brand className="text-2xl text-cyan-700 animate-pulse" />
         </h1>
-        <p className="text-gray-500 font-semibold">{overview}</p>
-        <ul className="flex justify-center mt-4 flex-wrap gap-5">
+        <p className="font-medium text-center lg:text-start text-gray-500">
+          {overview}
+        </p>
+        <ul className="flex justify-center my-4 flex-wrap gap-5">
           {techStack.map((stack, i) => (
             <li
               key={i}

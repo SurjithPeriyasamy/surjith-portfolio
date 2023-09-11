@@ -19,19 +19,8 @@ export const projects = [
     gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
   },
   {
-    title: "FOOD GEAR",
-    id: 2,
-    image: foodGear,
-    techStack: stacks,
-    brand: IoFastFoodSharp,
-    overView:
-      "Food Gear project is online food ordering Platform that allows users to order a food from home.This web app Using Swiggy's API for fetching Restaurant details and display it to the user.",
-    webUrl: "https://foodgear.netlify.app/",
-    gitHubCode: "https://github.com/SurjithPeriyasamy/namaste-react",
-  },
-  {
     title: "YOUTUBE CLONE",
-    id: 3,
+    id: 2,
     image: youtube,
     techStack: stacks,
     brand: AiFillYoutube,
@@ -39,5 +28,16 @@ export const projects = [
       "Youtube Clone Project is Online Platform that allows users to watch videos for entertainment,study or something else.This web app Using Youtube API for fetching Videos,Comments and Details.",
     webUrl: "https://surjith-youtube.netlify.app",
     gitHubCode: "https://github.com/SurjithPeriyasamy/youtube-gear",
+  },
+  {
+    title: "FOOD GEAR",
+    id: 3,
+    image: foodGear,
+    techStack: stacks,
+    brand: IoFastFoodSharp,
+    overView:
+      "Food Gear project is online food ordering Platform that allows users to order a food from home.This web app Using Swiggy's API for fetching Restaurant details and display it to the user.",
+    webUrl: "https://foodgear.netlify.app/",
+    gitHubCode: "https://github.com/SurjithPeriyasamy/namaste-react",
   },
 ];

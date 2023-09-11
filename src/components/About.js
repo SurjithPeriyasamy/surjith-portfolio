@@ -28,14 +28,12 @@ const About = () => {
             </h1>
           </div>
         </div>
-        <div className="max-w-lg text-center md:text-start ">
-          <h2 className="text-blue-600 font-bold text-center md:text-start text-lg">
-            ABOUT ME
-          </h2>
-          <h1 className="font-bold text-2xl my-5">
+        <div className="max-w-lg text-center lg:text-justify">
+          <h2 className="text-blue-600 font-bold  text-lg">ABOUT ME</h2>
+          <h1 className="font-bold text-xl   my-5">
             A dedicated Front-end Developer based in Tamilnadu, India 📍
           </h1>
-          <p className="text-gray-500 text-lg text-justify">
+          <p className="text-gray-500 text-lg">
             As a Junior Front-End Developer, I possess an impressive arsenal of
             skills in HTML, CSS, JavaScript, React,Redux, Tailwind CSS. I excel
             in designing and maintaining responsive websites that offer a smooth

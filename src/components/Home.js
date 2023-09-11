@@ -19,9 +19,9 @@ const Home = () => {
       <div className="max-w-5xl px-10 pt-28 lg:pt-48 pb-12 m-auto">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-24">
           <div className="max-w-md md:max-w-lg text-center lg:text-start">
-            <h1 className="font-bold text-zinc-700 select-none  text-3xl  md:text-6xl my-5">
+            <h1 className="font-bold text-zinc-700 select-none  text-4xl  md:text-6xl my-5">
               Front-End React
-              <blockquote className="flex justify-center lg:justify-normal items-center gap-3">
+              <blockquote className="flex justify-center lg:justify-normal items-center gap-1">
                 Developer
                 <img
                   className="md:h-16 h-10 animate-[wave_2s_ease-in-out_infinite]"
@@ -34,19 +34,19 @@ const Home = () => {
               Hi, I'm Surjith Periyasamy. A passionate Front-end React Developer
               based in Tamilnadu, India📍
             </p>
-            <p className="flex justify-center lg:justify-normal gap-14 mt-9">
+            <div className="flex justify-center lg:justify-normal gap-14 mt-9">
               <div className="text-4xl hover:text-blue-600 cursor-pointer">
                 <GitHub />
               </div>
               <div className="text-4xl hover:text-blue-600 cursor-pointer">
                 <LinkedIn />
               </div>
-            </p>
+            </div>
             <a
               href="https://github.com/SurjithPeriyasamy/surjith-portfolio"
               target="_blank"
               rel="external noreferrer"
-              className="flex justify-center lg:justify-normal mt-5 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
+              className="flex justify-center lg:justify-normal mt-12 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
             >
               Code for This Portfolio
               <AiFillGithub className="text-3xl text-cyan-700 animate-bounce" />
@@ -54,7 +54,7 @@ const Home = () => {
           </div>
           <div className="min-w-fit lg:self-baseline self-center">
             <img
-              className=" rounded-full h-[320px] w-[302px] bg-[#8e8e8e] border-4 border-black"
+              className=" rounded-full h-[292px] w-[275px] md:scale-110 duration-500 ease-out bg-[#8e8e8e] shadow-[0_0_50px_2px] shadow-gray-400"
               alt="profile"
               src={profile}
             />

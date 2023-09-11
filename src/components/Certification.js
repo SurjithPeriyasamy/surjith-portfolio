@@ -9,7 +9,7 @@ const Certification = () => {
         <h1 className="text-3xl text-center lg:text-start font-semibold text-blue-800 my-5">
           Certification
         </h1>
-        <div className="flex flex-col lg:flex-row gap-10 items-center rounded-md shadow-[0_0_60px_2px_lightgray] px-2 py-6">
+        <div className="flex flex-col lg:flex-row gap-10 items-center px-5 rounded-md shadow-[0_0_60px_2px_lightgray] py-6">
           <div className="max-w-lg ">
             <img
               className="rounded-md shadow-xl"
@@ -17,12 +17,12 @@ const Certification = () => {
               src={certificate}
             />
           </div>
-          <div className="max-w-lg ">
+          <div className="max-w-lg">
             <h1 className="flex justify-center items-center gap-3 text-xl font-semibold">
               NAMASTE REACT
               <PiCertificateBold className="text-2xl animate-pulse text-cyan-700" />
             </h1>
-            <p className="text-gray-500 text-justify text-center md:text-start font-semibold my-5">
+            <p className="text-gray-500  text-center lg:text-start font-medium my-5">
               Namaste Dev is an online platform to learn FrontEnd Development
               related course. So I join for learn React JS Developer
               Course(Namaste React). Now I finished ReactJS Course with valid
