@@ -28,12 +28,11 @@ const Header = () => {
           <FaXmark className="text-3xl hover:text-blue-600 lg:hidden cursor-pointer" />
         )}
       </div>
-
       <ul
         className={
-          isMenuOpen
-            ? "absolute select-none lg:static flex flex-col lg:flex-row gap-5 left-0 top-[77px] border border-t-gray-200 w-full lg:w-fit items-center p-5 lg:p-0 bg-white md:bg-none shadow-xl md:shadow-none font-semibold text-lg"
-            : "hidden font-semibold text-lg lg:flex gap-10"
+          !isMenuOpen
+            ? "absolute bg-white -left-full top-[77px] duration-300 ease-linear lg:transform-none lg:static flex flex-col lg:flex-row gap-5 w-full lg:w-fit items-center font-medium text-lg p-5 lg:p-0"
+            : "absolute bg-white border border-t-gray-300 lg:border-none left-0 top-[77px] duration-300 ease-linear lg:static select-none flex flex-col lg:flex-row gap-5 w-full lg:w-fit font-medium text-lg items-center p-5 lg:p-0 lg:bg-none shadow-xl lg:shadow-none"
         }
       >
         {menuItems.map((item, i) => (

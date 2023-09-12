@@ -4,7 +4,7 @@ import LinkedIn from "./LinkedIn";
 
 const Footer = () => {
   return (
-    <div className="bg-zinc-800 px-5">
+    <div id="footer" className="bg-zinc-800 px-5">
       <div className="py-16 text-white flex flex-col gap-4 md:flex-row justify-between items-center max-w-5xl mx-auto">
         <p className="font-bold md:text-lg">
           Copyright &copy; 2023. All rights are reserved

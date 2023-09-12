@@ -4,6 +4,8 @@ import wavingHand from "../images/wavingHand.svg";
 import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
+import { AiOutlineArrowDown } from "react-icons/ai";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Home = () => {
   const techStackLogos = [
     "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
@@ -13,7 +15,7 @@ const Home = () => {
     "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png",
     "https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png",
   ];
-  // h-64 w-60 md:h-80 md:w-80
+
   return (
     <div id="home" className="bg-neutral-50 ">
       <div className="max-w-5xl px-10 pt-28 lg:pt-48 pb-12 m-auto">
@@ -54,7 +56,7 @@ const Home = () => {
           </div>
           <div className="min-w-fit lg:self-baseline self-center">
             <img
-              className=" rounded-full h-[292px] w-[275px] md:scale-110 duration-500 ease-out bg-[#8e8e8e] shadow-[0_0_20px_6px] shadow-gray-300"
+              className="rounded-tl-[125px] rounded-br-[125px] h-[295px] w-[275px] md:scale-110 duration-500 ease-out bg-gray-300 shadow-[0_0_20px_3px] shadow-zinc-300"
               alt="profile"
               src={profile}
             />
@@ -79,6 +81,9 @@ const Home = () => {
             ))}
           </ul>
         </div>
+        <AnchorLink href="#footer">
+          <AiOutlineArrowDown className="mx-auto animate-bounce mt-9 p-1 rounded-full bg-white text-3xl shadow-lg" />
+        </AnchorLink>
       </div>
     </div>
   );

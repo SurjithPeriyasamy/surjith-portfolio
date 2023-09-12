@@ -7,10 +7,7 @@ const Contact = () => {
   const { location, mail } = useContext(userContext);
   return (
     <div className="bg-neutral-50">
-      <div
-        id="contact"
-        className="max-w-5xl m-auto px-5 md:px-10 py-16 md:py-32"
-      >
+      <div id="contact" className="max-w-5xl mx-auto px-5 md:px-10 py-32">
         <h3 className="text-blue-600 font-bold text-lg text-center md:text-start">
           CONTACT
         </h3>
