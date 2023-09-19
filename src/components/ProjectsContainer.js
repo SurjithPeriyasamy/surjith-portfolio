@@ -7,7 +7,7 @@ const ProjectsContainer = () => {
   return (
     <div id="projects" className="py-20 md:py-32 px-4">
       <div className="max-w-6xl md:px-10 m-auto ">
-        <h1 className="font-bold text-2xl text-blue-700 my-5 text-center lg:text-start">
+        <h1 className="font-bold text-2xl text-blue-600 my-5 text-center lg:text-start">
           PROJECTS
         </h1>
         <div className="flex flex-col gap-14 md:p-0">

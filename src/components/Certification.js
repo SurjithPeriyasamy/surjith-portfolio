@@ -6,8 +6,8 @@ const Certification = () => {
   return (
     <div className="bg-neutral-50 px-3">
       <div id="certification" className=" max-w-5xl md:px-10  py-36 m-auto">
-        <h1 className="text-3xl text-center lg:text-start font-semibold text-blue-800 my-5">
-          Certification
+        <h1 className="text-2xl text-center lg:text-start font-bold text-blue-600 my-5">
+          CERTIFICATION
         </h1>
         <div className="flex flex-col lg:flex-row gap-10 items-center px-5 rounded-md shadow-[0_0_60px_2px_lightgray] py-6">
           <div className="max-w-lg ">
