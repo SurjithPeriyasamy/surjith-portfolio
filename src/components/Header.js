@@ -19,9 +19,7 @@ const Header = () => {
           className={
             isMenuOpen ? "rotate-90 duration-500" : "-rotate-180 duration-500"
           }
-          onClick={() =>
-            isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true)
-          }
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {!isMenuOpen ? (
             <GiHamburgerMenu className="text-3xl hover:text-blue-600 lg:hidden cursor-pointer" />
@@ -32,8 +30,8 @@ const Header = () => {
 
         <ul
           className={
-            "absolute -left-full top-[77px] duration-200 select-none ease-linear bg-white border lg:bg-none shadow-xl lg:static lg:shadow-none border-t-gray-300 lg:border-none items-center font-medium text-lg p-5 lg:p-0 flex flex-col lg:flex-row gap-5 w-full lg:w-fit" +
-            (isMenuOpen && "absolute left-0 top-[77px]")
+            "absolute -left-full top-[77px] duration-200 select-none ease-linear bg-white border lg:bg-none shadow-xl lg:static lg:shadow-none border-t-gray-300 lg:border-none items-center font-medium text-lg p-5 lg:p-0 flex flex-col lg:flex-row gap-5 w-full lg:w-fit " +
+            (isMenuOpen && " left-0 ")
           }
         >
           {menuItems.map((item, i) => (

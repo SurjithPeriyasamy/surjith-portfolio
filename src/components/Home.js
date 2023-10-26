@@ -1,5 +1,11 @@
 import React from "react";
 import profile from "../images/profile1.png";
+import html5 from "../images/html5.png";
+import css3 from "../images/css3.png";
+import javascript from "../images/javascript.png";
+import react from "../images/react.png";
+import tailwindcss from "../images/tailwindcss.png";
+import redux from "../images/redux.png";
 import wavingHand from "../images/wavingHand.svg";
 import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
@@ -8,27 +14,27 @@ const Home = () => {
   const techStackLogos = [
     {
       name: "HTML",
-      logo: "https://cdn2.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+      logo: html5,
     },
     {
       name: "CSS3",
-      logo: "https://cdn2.icon-icons.com/icons2/844/PNG/512/CSS3_icon-icons.com_67069.png",
+      logo: css3,
     },
     {
       name: "Javascript",
-      logo: "https://cdn2.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png",
+      logo: javascript,
     },
     {
       name: "React",
-      logo: "https://cdn2.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png",
+      logo: react,
     },
     {
       name: "Redux",
-      logo: "https://cdn2.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png",
+      logo: redux,
     },
     {
       name: "Tailwind CSS",
-      logo: "https://cdn2.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png",
+      logo: tailwindcss,
     },
   ];
 

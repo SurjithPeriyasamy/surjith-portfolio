@@ -21,14 +21,12 @@ const Contact = () => {
             content={location}
             isMail={false}
           />
-          {mail && (
-            <MailAndLocation
-              title={"Mail"}
-              Icon={FiMail}
-              content={mail}
-              isMail={true}
-            />
-          )}
+          <MailAndLocation
+            title={"Mail"}
+            Icon={FiMail}
+            content={mail}
+            isMail={true}
+          />
         </div>
       </div>
     </div>
