@@ -1,6 +1,7 @@
 import netflix from "../images/netflix.png";
 import youtube from "../images/youtube.png";
-import foodGear from "../images/foodGear.png";
+import sdfood from "../images/sdfood.png";
+import food_gear from "../images/food_gear.png";
 import { BiSolidMoviePlay } from "react-icons/bi";
 import { AiFillYoutube } from "react-icons/ai";
 import { IoFastFoodSharp } from "react-icons/io5";
@@ -19,8 +20,19 @@ export const projects = [
     gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
   },
   {
-    title: "YOUTUBE CLONE",
+    title: "FOOD GEAR",
     id: 2,
+    image: food_gear,
+    techStack: stacks,
+    brand: IoFastFoodSharp,
+    overView:
+      "Food Gear project is online food ordering Platform that allows users to order a food from home.This website making it easy for customers to find and buy the foods what they need.",
+    webUrl: "https://sdev-foodgear.netlify.app/",
+    gitHubCode: "https://github.com/SurjithPeriyasamy/Mini-swiggy",
+  },
+  {
+    title: "YOUTUBE CLONE",
+    id: 3,
     image: youtube,
     techStack: stacks,
     brand: AiFillYoutube,
@@ -30,14 +42,14 @@ export const projects = [
     gitHubCode: "https://github.com/SurjithPeriyasamy/youtube-gear",
   },
   {
-    title: "FOOD GEAR",
-    id: 3,
-    image: foodGear,
+    title: "SD FOOD",
+    id: 4,
+    image: sdfood,
     techStack: stacks,
     brand: IoFastFoodSharp,
     overView:
-      "Food Gear project is online food ordering Platform that allows users to order a food from home.This website making it easy for customers to find and buy the foods what they need.",
-    webUrl: "https://foodgear.netlify.app/",
+      "SD Food project is online food ordering Platform that allows users to order a food from home.This website making it easy for customers to find and buy the foods what they need.",
+    webUrl: "https://sd-food.netlify.app/",
     gitHubCode: "https://github.com/SurjithPeriyasamy/namaste-react",
   },
 ];
