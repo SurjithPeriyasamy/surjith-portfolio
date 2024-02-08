@@ -5,7 +5,7 @@ import userContext from "../utils/userContext";
 const About = () => {
   const { role } = useContext(userContext);
   return (
-    <div id="about" className="max-w-6xl m-auto  py-36">
+    <div id="about" className="max-w-6xl mx-auto  py-44">
       <div className="flex flex-col px-10 items-center gap-20 lg:flex-row ">
         <div className="max-w-sm md:max-w-lg relative mx-9 md:mx-0">
           <img className="rounded-xl" alt="workdesk" src={workDesk} />
@@ -39,9 +39,7 @@ const About = () => {
             in designing and maintaining responsive websites that offer a smooth
             user experience. My expertise lies in crafting dynamic, engaging
             interfaces through writing clean and optimized code and utilizing
-            cutting-edge development tools and techniques. I am also a team
-            player who thrives in collaborating with cross-functional teams to
-            produce outstanding web applications.
+            cutting-edge development tools and techniques.
           </p>
         </div>
       </div>
