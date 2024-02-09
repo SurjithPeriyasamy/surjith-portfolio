@@ -10,6 +10,7 @@ import wavingHand from "../images/wavingHand.svg";
 import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
+import { BiLinkExternal } from "react-icons/bi";
 const Home = () => {
   const techStackLogos = [
     {
@@ -66,6 +67,18 @@ const Home = () => {
                 <LinkedIn />
               </div>
             </div>
+            <a
+              href="https://www.canva.com/design/DAF5e1OKt10/gZzp5NCuVkT7i9vyJSjbIw/view?utm_content=DAF5e1OKt10&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+              target="_blank"
+              rel="noreferrer"
+              className="flex justify-center items-center lg:justify-normal mt-12 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
+            >
+              Resume
+              <BiLinkExternal
+                className="animate-bounce text-cyan-700"
+                size={22}
+              />
+            </a>
             <a
               href="https://github.com/SurjithPeriyasamy/surjith-portfolio"
               target="_blank"
