@@ -12,9 +12,9 @@ const Certification = () => {
         <div className="space-y-10">
           {CERTIFICATES.map((certificate) => (
             <div className="flex flex-col lg:flex-row gap-10 items-center px-5 rounded-md shadow-[0_0_60px_2px_lightgray] py-6">
-              <div className="max-w-lg ">
+              <div className="lg:max-w-xs max-w-xl">
                 <img
-                  className="rounded-md shadow-xl"
+                  className="rounded-md  shadow-xl"
                   alt="certificate"
                   src={certificate.image}
                 />
