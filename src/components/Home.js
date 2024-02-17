@@ -71,22 +71,10 @@ const Home = () => {
               href="https://drive.google.com/file/d/1r-Ep_YQtGxcpj5ifIfU5dDaNiqZQKfh9/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
-              className="flex justify-center items-center lg:justify-normal mt-12 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
+              className="flex justify-center tracking-wider items-center lg:justify-normal mt-12  gap-3 text-xl text-gray-800 font-semibold hover:text-cyan-700"
             >
               Resume
-              <BiLinkExternal
-                className="animate-bounce text-cyan-700"
-                size={22}
-              />
-            </a>
-            <a
-              href="https://github.com/SurjithPeriyasamy/surjith-portfolio"
-              target="_blank"
-              rel="external noreferrer"
-              className="flex justify-center lg:justify-normal mt-12 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
-            >
-              Code for This Portfolio
-              <AiFillGithub className="text-3xl text-cyan-700 animate-bounce" />
+              <BiLinkExternal className="animate-bounce text-2xl text-cyan-700" />
             </a>
           </div>
           <div className="min-w-fit lg:self-baseline self-center">
