@@ -1,18 +1,32 @@
-import netflix from "../images/netflix.png";
-import youtube from "../images/youtube.png";
-import sdfood from "../images/sdfood.png";
-import food_gear from "../images/food_gear.png";
+import netflix from "../images/projects/netflix.png";
+import youtube from "../images/projects/youtube.png";
+import sdfood from "../images/projects/sdfood.png";
+import food_gear from "../images/projects/food_gear.png";
+import surjithKart from "../images/projects/surjithKart.png";
 import { BiSolidMoviePlay } from "react-icons/bi";
 import { AiFillYoutube } from "react-icons/ai";
 import { IoFastFoodSharp } from "react-icons/io5";
-export const stacks = ["React", "Tailwind CSS", "Redux"];
+import { FaOpencart } from "react-icons/fa";
+
+export const stacks = ["React", "Tailwind CSS", "Redux Toolkit"];
 
 export const projects = [
   {
-    title: "NETFLIX GPT",
+    title: "SURJTIHKART",
     id: 1,
+    image: surjithKart,
+    techStack: [...stacks, "Firebase"],
+    brand: FaOpencart,
+    overView:
+      "Ecommerce web app Organized with multiple categories, top-rated highlights and granular price filtering (low-to-high and high-to-low).Enabled account creation, updates and deletions via Firebase.Implemented Infinite Scrolling to Increase user engagement and Experience by 70%",
+    webUrl: "https://surjithkart.netlify.app",
+    gitHubCode: "https://github.com/SurjithPeriyasamy/E-commerce",
+  },
+  {
+    title: "NETFLIX GPT",
+    id: 2,
     image: netflix,
-    techStack: stacks,
+    techStack: [...stacks, "Firebase"],
     brand: BiSolidMoviePlay,
     overView:
       "Netflix GPT Project is OTT Platform that allows users to watch movies for entertainment and something else, with the trailer,release date and some details of them.Integrate GPT Search like openai,it gives some movie sugesstions that what the users will need.",
@@ -21,7 +35,7 @@ export const projects = [
   },
   {
     title: "FOOD GEAR",
-    id: 2,
+    id: 3,
     image: food_gear,
     techStack: stacks,
     brand: IoFastFoodSharp,
@@ -32,9 +46,9 @@ export const projects = [
   },
   {
     title: "YOUTUBE CLONE",
-    id: 3,
+    id: 4,
     image: youtube,
-    techStack: stacks,
+    techStack: [...stacks, "Firebase"],
     brand: AiFillYoutube,
     overView:
       "Youtube Clone Project is Online Platform that allows users to watch videos for entertainment,study or something else.This web app provides a SearchEngine for finding videos what user wants.Integrate a chat looks like Live Chat using API Polling mechanism.",
@@ -43,7 +57,7 @@ export const projects = [
   },
   {
     title: "SD FOOD",
-    id: 4,
+    id: 5,
     image: sdfood,
     techStack: stacks,
     brand: IoFastFoodSharp,

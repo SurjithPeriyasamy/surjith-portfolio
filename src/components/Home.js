@@ -1,11 +1,11 @@
 import React from "react";
 import profile from "../images/profile1.png";
-import html5 from "../images/html5.png";
-import css3 from "../images/css3.png";
-import javascript from "../images/javascript.png";
-import react from "../images/react.png";
-import tailwindcss from "../images/tailwindcss.png";
-import redux from "../images/redux.png";
+import html5 from "../images/stacks/html5.png";
+import css3 from "../images/stacks/css3.png";
+import javascript from "../images/stacks/javascript.png";
+import react from "../images/stacks/react.png";
+import tailwindcss from "../images/stacks/tailwindcss.png";
+import redux from "../images/stacks/redux.png";
 import wavingHand from "../images/wavingHand.svg";
 import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
@@ -68,7 +68,7 @@ const Home = () => {
               </div>
             </div>
             <a
-              href="https://www.canva.com/design/DAF5e1OKt10/gZzp5NCuVkT7i9vyJSjbIw/view?utm_content=DAF5e1OKt10&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+              href="https://drive.google.com/file/d/1r-Ep_YQtGxcpj5ifIfU5dDaNiqZQKfh9/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               className="flex justify-center items-center lg:justify-normal mt-12 gap-3 text-lg text-gray-800 font-semibold hover:text-cyan-700"
