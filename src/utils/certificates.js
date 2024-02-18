@@ -38,7 +38,7 @@ const CERTIFICATES = [
   certificateObj(
     4,
     "NAMASTE JAVASCRIPT",
-    "https://www.hackerrank.com/certificates/9f42c0c57901",
+    "https://drive.google.com/file/d/16DQgUKPe6gWtmJmGw2hnsxk4rkyxcCf1/view?usp=drive_link",
     "Namaste Dev is an online platform to learn FrontEnd Development related course. I join for learn Javascript (Namaste Javascript). Now I finished Javascript Course with valid cerification authorized by AkshaySaini(founder of Namaste Dev)",
     javascript
   ),
