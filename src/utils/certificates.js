@@ -31,14 +31,14 @@ const CERTIFICATES = [
   certificateObj(
     3,
     "NAMASTE REACT",
-    "https://drive.google.com/file/d/1tLsVH-La6P-mrwYkpWOQsz3midDBZTFY/view?usp=drive_link",
+    "https://namastedev.com/mahindhiran005/certificates/namaste-react",
     "Namaste Dev is an online platform to learn FrontEnd Development related course. I join for learn React JS Developer Course(Namaste React). Now I finished ReactJS Course with valid cerification authorized by AkshaySaini(founder of Namaste Dev).",
     react
   ),
   certificateObj(
     4,
     "NAMASTE JAVASCRIPT",
-    "https://drive.google.com/file/d/16DQgUKPe6gWtmJmGw2hnsxk4rkyxcCf1/view?usp=drive_link",
+    "https://namastedev.com/mahindhiran005/certificates/namaste-javascript",
     "Namaste Dev is an online platform to learn FrontEnd Development related course. I join for learn Javascript (Namaste Javascript). Now I finished Javascript Course with valid cerification authorized by AkshaySaini(founder of Namaste Dev)",
     javascript
   ),
