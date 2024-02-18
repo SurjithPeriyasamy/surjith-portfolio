@@ -1,44 +1,12 @@
 import React from "react";
 import profile from "../images/profile1.png";
-import html5 from "../images/stacks/html5.png";
-import css3 from "../images/stacks/css3.png";
-import javascript from "../images/stacks/javascript.png";
-import react from "../images/stacks/react.png";
-import tailwindcss from "../images/stacks/tailwindcss.png";
-import redux from "../images/stacks/redux.png";
 import wavingHand from "../images/wavingHand.svg";
-import { AiFillGithub } from "react-icons/ai";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
 import { BiLinkExternal } from "react-icons/bi";
-const Home = () => {
-  const techStackLogos = [
-    {
-      name: "HTML",
-      logo: html5,
-    },
-    {
-      name: "CSS3",
-      logo: css3,
-    },
-    {
-      name: "Javascript",
-      logo: javascript,
-    },
-    {
-      name: "React",
-      logo: react,
-    },
-    {
-      name: "Redux",
-      logo: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      logo: tailwindcss,
-    },
-  ];
+import { TECH_STACK_LOGOS } from "../utils/constants";
 
+const Home = () => {
   return (
     <div id="home" className="bg-neutral-50 ">
       <div className="max-w-5xl px-10 pt-28 lg:pt-48 pb-12 m-auto">
@@ -68,7 +36,7 @@ const Home = () => {
               </div>
             </div>
             <a
-              href="https://drive.google.com/file/d/1r-Ep_YQtGxcpj5ifIfU5dDaNiqZQKfh9/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1g2Uouaynvkc8RaVcRxEju424AE_tKB9R/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               className="flex justify-center tracking-wider items-center lg:justify-normal mt-12  gap-3 text-xl text-gray-800 font-semibold hover:text-cyan-700"
@@ -93,7 +61,7 @@ const Home = () => {
             <span className="mr-5 text-2xl hidden lg:block"> |</span>
           </div>
           <ul className="grid grid-cols-3 lg:grid-flow-col gap-x-10 gap-y-3">
-            {techStackLogos.map((stack, i) => (
+            {TECH_STACK_LOGOS.map((stack, i) => (
               <li key={i} className="bg-white shadow-xl rounded-full p-3 ">
                 <img
                   className="h-9 hover:rotate-[360deg] duration-500"

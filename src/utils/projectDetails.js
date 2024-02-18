@@ -23,19 +23,8 @@ export const projects = [
     gitHubCode: "https://github.com/SurjithPeriyasamy/E-commerce",
   },
   {
-    title: "NETFLIX GPT",
-    id: 2,
-    image: netflix,
-    techStack: [...stacks, "Firebase"],
-    brand: BiSolidMoviePlay,
-    overView:
-      "Netflix GPT Project is OTT Platform that allows users to watch movies for entertainment and something else, with the trailer,release date and some details of them.Integrate GPT Search like openai,it gives some movie sugesstions that what the users will need.",
-    webUrl: "https://baby-dev-netflixgpt.netlify.app/",
-    gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
-  },
-  {
     title: "FOOD GEAR",
-    id: 3,
+    id: 2,
     image: food_gear,
     techStack: stacks,
     brand: IoFastFoodSharp,
@@ -44,6 +33,18 @@ export const projects = [
     webUrl: "https://sdev-foodgear.netlify.app/",
     gitHubCode: "https://github.com/SurjithPeriyasamy/Mini-swiggy",
   },
+  {
+    title: "NETFLIX GPT",
+    id: 3,
+    image: netflix,
+    techStack: [...stacks, "Firebase"],
+    brand: BiSolidMoviePlay,
+    overView:
+      "Netflix GPT Project is OTT Platform that allows users to watch movies for entertainment and something else, with the trailer,release date and some details of them.Integrate GPT Search like openai,it gives some movie sugesstions that what the users will need.",
+    webUrl: "https://babydev-netflixgpt.netlify.app/",
+    gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
+  },
+
   {
     title: "YOUTUBE CLONE",
     id: 4,
