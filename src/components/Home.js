@@ -36,7 +36,7 @@ const Home = () => {
               </div>
             </div>
             <a
-              href="https://drive.google.com/file/d/1u8JZrRLoGv1SIOYhtpd2n2pHzPkKbaBI/view?usp=drive_link"
+              href="https://drive.google.com/file/d/151firDVkUNXl9VUPhF5SuP5gEaKSnm_m/view"
               target="_blank"
               rel="noreferrer"
               className="flex justify-center tracking-wider items-center lg:justify-normal mt-12  gap-3 text-xl text-gray-800 font-semibold hover:text-cyan-700"
