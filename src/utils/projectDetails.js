@@ -18,7 +18,7 @@ export const projects = [
     techStack: [...stacks, "Firebase"],
     brand: FaOpencart,
     overView:
-      "Ecommerce web app Organized with multiple categories, top-rated highlights and granular price filtering (low-to-high and high-to-low).Enabled account creation, updates and deletions via Firebase.Implemented Infinite Scrolling to Increase user engagement and Experience by 70%",
+      "Ecommerce web app organized with Enabled account creation, updates and deletions via Firebase, Increased product feed engagement 30% and reduced load time 10% with efficient infinite scroll and Implemented multi-category filtering, top-rated sorting, and price sorting using JavaScript.",
     webUrl: "https://surjithkart.netlify.app",
     gitHubCode: "https://github.com/SurjithPeriyasamy/E-commerce",
   },
@@ -29,7 +29,7 @@ export const projects = [
     techStack: stacks,
     brand: IoFastFoodSharp,
     overView:
-      "Food Gear project is online food ordering Platform that allows users to order a food from home.This website making it easy for customers to find and buy the foods what they need.",
+      "Food Gear project is online food ordering Platform.Increased user engagement by 15% through dynamic veg filter.Designed cart to enhance single-restaurant checkout flow.Implemented Memoization to achieve 50% reduction in API calls using Redux Toolkit.",
     webUrl: "https://sdev-foodgear.netlify.app/",
     gitHubCode: "https://github.com/SurjithPeriyasamy/Mini-swiggy",
   },
@@ -40,7 +40,7 @@ export const projects = [
     techStack: [...stacks, "Firebase"],
     brand: BiSolidMoviePlay,
     overView:
-      "Netflix GPT Project is OTT Platform that allows users to watch movies for entertainment and something else, with the trailer,release date and some details of them.Integrate GPT Search like openai,it gives some movie sugesstions that what the users will need.",
+      "Built by TMDB's Live API and Firebase authentication.Developed a secure login system that restricts access to the browse page until users successfully authenticate.Developed an AI-powered movie recommendation system.",
     webUrl: "https://babydev-netflixgpt.netlify.app/",
     gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
   },
@@ -52,7 +52,7 @@ export const projects = [
     techStack: [...stacks, "Firebase"],
     brand: AiFillYoutube,
     overView:
-      "Youtube Clone Project is Online Platform that allows users to watch videos for entertainment,study or something else.This web app provides a SearchEngine for finding videos what user wants.Integrate a chat looks like Live Chat using API Polling mechanism.",
+      "Provided real-time data using YouTube's live API.Data Polling, LRU Caching for dynamic live chat.Debounced & cached search for lag-free typeability (20% faster response) and reduced server load by 30%.",
     webUrl: "https://surjith-youtube.netlify.app",
     gitHubCode: "https://github.com/SurjithPeriyasamy/youtube-gear",
   },

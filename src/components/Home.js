@@ -4,7 +4,7 @@ import wavingHand from "../images/wavingHand.svg";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
 import { BiLinkExternal } from "react-icons/bi";
-import { TECH_STACK_LOGOS } from "../utils/constants";
+import { RESUME_LINK, TECH_STACK_LOGOS } from "../utils/constants";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
               </div>
             </div>
             <a
-              href="https://drive.google.com/file/d/151firDVkUNXl9VUPhF5SuP5gEaKSnm_m/view"
+              href={RESUME_LINK}
               target="_blank"
               rel="noreferrer"
               className="flex justify-center tracking-wider items-center lg:justify-normal mt-12  gap-3 text-xl text-gray-800 font-semibold hover:text-cyan-700"

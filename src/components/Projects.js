@@ -14,7 +14,7 @@ const Projects = ({
   return (
     <div className="flex flex-col lg:flex-row gap-12 px-5 items-center bg-white py-6 rounded-lg shadow-[10px_10px_60px_-15px_rgba(0,0,0,0.3)]">
       <a
-        className="max-w-lg"
+        className="lg:w-1/2"
         href={webUrl}
         rel="external noreferrer"
         target="_blank"
@@ -25,7 +25,7 @@ const Projects = ({
           src={image}
         />
       </a>
-      <div className="max-w-lg">
+      <div className="lg:w-1/2">
         <h1 className="font-bold justify-center items-center mb-3 flex gap-3">
           {title} <Brand className="text-2xl text-cyan-700 animate-pulse" />
         </h1>

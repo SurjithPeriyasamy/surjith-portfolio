@@ -31,3 +31,6 @@ export const TECH_STACK_LOGOS = [
     logo: tailwindcss,
   },
 ];
+
+export const RESUME_LINK =
+  "https://drive.google.com/file/d/1i3AQsTZZtwcSwn4aioRncA3WSVNEbS4n/view";
