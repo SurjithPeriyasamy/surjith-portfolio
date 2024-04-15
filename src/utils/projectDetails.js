@@ -41,7 +41,7 @@ export const projects = [
     brand: BiSolidMoviePlay,
     overView:
       "Built by TMDB's Live API and Firebase authentication.Developed a secure login system that restricts access to the browse page until users successfully authenticate.Developed an AI-powered movie recommendation system.",
-    webUrl: "https://hilarious-dasik-dcba92.netlify.app",
+    webUrl: "https://incandescent-strudel-d45292.netlify.app",
     gitHubCode: "https://github.com/SurjithPeriyasamy/netflix-gpt",
   },
 
