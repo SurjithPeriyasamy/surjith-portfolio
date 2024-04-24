@@ -33,4 +33,4 @@ export const TECH_STACK_LOGOS = [
 ];
 
 export const RESUME_LINK =
-  "https://drive.google.com/file/d/1FiqQvDPo6B7CWYyDgsIEEXwTCTqLgJlS/view";
+  "https://drive.google.com/file/d/11K1Ltg6BrC5WSmP54584WhhhCmwVUS2C/view";
