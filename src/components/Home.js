@@ -62,12 +62,18 @@ const Home = () => {
           </div>
           <ul className="grid grid-cols-3 lg:grid-flow-col gap-x-10 gap-y-3">
             {TECH_STACK_LOGOS.map((stack, i) => (
-              <li key={i} className="bg-white shadow-xl rounded-full p-3 ">
+              <li
+                key={i}
+                className="bg-white group relative shadow-xl rounded-full p-3 "
+              >
                 <img
                   className="h-9 hover:rotate-[360deg] duration-500"
                   alt={stack.name}
                   src={stack.logo}
                 />
+                <span className="absolute whitespace-nowrap text-xs md:text-sm invisible opacity-0 group-hover:opacity-100 group-hover:visible duration-500 transition-all rounded-lg px-2 py-1 bg-black bg-opacity-80 text-white">
+                  {stack.name}
+                </span>
               </li>
             ))}
           </ul>
