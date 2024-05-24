@@ -7,7 +7,7 @@ import redux from "../images/stacks/redux.png";
 
 export const TECH_STACK_LOGOS = [
   {
-    name: "HTML",
+    name: "HTML5",
     logo: html5,
   },
   {
@@ -15,7 +15,7 @@ export const TECH_STACK_LOGOS = [
     logo: css3,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     logo: javascript,
   },
   {
