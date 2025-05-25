@@ -33,13 +33,18 @@ const About = () => {
           <h1 className="font-bold text-xl   my-5">
             A dedicated Front-end Developer based in Tamilnadu, India 📍
           </h1>
-          <p className="text-gray-500 text-lg">
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, ReactJS, Redux Toolkit, Tailwind
-            CSS. I excel in designing and maintaining responsive websites that
-            offer a smooth user experience. My expertise lies in crafting
-            dynamic, engaging interfaces through writing clean and optimized
-            code and utilizing cutting-edge development tools and techniques.
+          <p className="text-gray-500 ">
+            As a Junior React Developer, I bring hands-on experience in building
+            and maintaining scalable, responsive web applications. My core tech
+            stack includes HTML, CSS, JavaScript, React.js, TypeScript, Redux
+            Toolkit, and Tailwind CSS. I’ve worked independently on
+            production-level modules, integrating real-time features like
+            XMPP-based chat, and implementing multilingual support (like
+            Japanese, French, Spanish and English). I focus on writing clean,
+            optimized code and crafting engaging user interfaces using modern
+            tools and frameworks like Next.js. I enjoy solving problems,
+            continuously learning, and delivering smooth user experiences with
+            performance in mind.
           </p>
         </div>
       </div>

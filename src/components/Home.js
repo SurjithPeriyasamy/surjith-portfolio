@@ -8,7 +8,7 @@ import { RESUME_LINK, TECH_STACK_LOGOS } from "../utils/constants";
 
 const Home = () => {
   return (
-    <div id="home" className="bg-neutral-50 ">
+    <div id="home" className="bg-neutral-50">
       <div className="max-w-5xl px-10 pt-28 lg:pt-48 pb-12 m-auto">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:gap-24">
           <div className="max-w-md md:max-w-lg text-center lg:text-start">
@@ -28,10 +28,10 @@ const Home = () => {
               based in Tamilnadu, India📍
             </p>
             <div className="flex justify-center lg:justify-normal gap-14 mt-9">
-              <div className="text-4xl hover:text-blue-600 cursor-pointer">
+              <div className="text-4xl hover:text-blue-600 duration-300 cursor-pointer">
                 <GitHub />
               </div>
-              <div className="text-4xl hover:text-blue-600 cursor-pointer">
+              <div className="text-4xl hover:text-blue-600 duration-300 cursor-pointer">
                 <LinkedIn />
               </div>
             </div>
@@ -53,25 +53,25 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center gap-7 mt-12 lg:mt-28">
-          <div className="flex gap-10 items-center">
+        <div className="flex flex-col lg:flex-row items-center gap-7 mt-12 lg:mt-24">
+          <div className="flex gap-10 items-center shrink-0">
             <h1 className="font-semibold text-lg underline lg:no-underline">
               Tech Stacks
             </h1>
             <span className="mr-5 text-2xl hidden lg:block"> |</span>
           </div>
-          <ul className="grid grid-cols-3 lg:grid-flow-col gap-x-10 gap-y-3">
+          <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 sm:gap-6 place-items-center">
             {TECH_STACK_LOGOS.map((stack, i) => (
               <li
                 key={i}
-                className="bg-white group relative shadow-xl rounded-full p-3 "
+                className="relative group bg-white shadow-md rounded-full p-3 hover:shadow-xl transition-shadow"
               >
                 <img
-                  className="h-9 hover:rotate-[360deg] duration-500"
+                  className="h-8 group-hover:rotate-180 transition-transform duration-500"
                   alt={stack.name}
                   src={stack.logo}
                 />
-                <span className="absolute whitespace-nowrap text-xs md:text-sm invisible opacity-0 group-hover:opacity-100 group-hover:visible duration-500 transition-all rounded-lg px-2 py-1 bg-black bg-opacity-80 text-white">
+                <span className="absolute group-hover:bottom-full bottom-0 mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap text-xs sm:text-sm bg-black bg-opacity-80 text-white rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10">
                   {stack.name}
                 </span>
               </li>

@@ -4,6 +4,8 @@ import javascript from "../images/stacks/javascript.png";
 import react from "../images/stacks/react.png";
 import tailwindcss from "../images/stacks/tailwindcss.png";
 import redux from "../images/stacks/redux.png";
+import nextjs from "../images/stacks/Next.js.png";
+import typescript from "../images/stacks/typescript.png";
 
 export const TECH_STACK_LOGOS = [
   {
@@ -19,6 +21,10 @@ export const TECH_STACK_LOGOS = [
     logo: javascript,
   },
   {
+    name: "TypeScript",
+    logo: typescript,
+  },
+  {
     name: "React",
     logo: react,
   },
@@ -26,6 +32,12 @@ export const TECH_STACK_LOGOS = [
     name: "Redux",
     logo: redux,
   },
+
+  {
+    name: "NEXT.JS",
+    logo: nextjs,
+  },
+
   {
     name: "Tailwind CSS",
     logo: tailwindcss,
